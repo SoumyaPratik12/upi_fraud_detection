@@ -1,0 +1,44 @@
+CASH_OUT fraud count 4116 legit count 2233384
+fraud balance_diff_dest unique sample: count    4.116000e+03
+mean     1.464626e+06
+std      2.410913e+06
+min     -3.152261e+05
+25%      1.263295e+05
+50%      4.397823e+05
+75%      1.505352e+06
+max      1.491511e+07
+Name: balance_diff_dest, dtype: float64
+legit balance_diff_dest unique sample: count    2.233384e+06
+mean     1.912257e+05
+std      2.945514e+05
+min     -9.681485e+06
+25%      7.117971e+04
+50%      1.500525e+05
+75%      2.579020e+05
+max      5.790352e+07
+Name: balance_diff_dest, dtype: float64
+fraud balance_diff_orig describe: count    4.116000e+03
+mean    -1.453796e+06
+std      2.394544e+06
+min     -1.000000e+07
+25%     -1.500761e+06
+50%     -4.336777e+05
+75%     -1.230639e+05
+max      0.000000e+00
+Name: balance_diff_orig, dtype: float64
+avg amount ratio fraud 1197.3846993249533
+avg amount ratio legit 77553.84337639673
+type mapping sample 0
+         isFraud     amount  ...  oldbalanceOrg  newbalanceOrig
+58805          0  198727.40  ...      317776.00       119048.60
+63030          0  197846.75  ...       81018.00            0.00
+93919          0  202942.30  ...      212180.00         9237.70
+14534          0  196115.36  ...       69676.00            0.00
+1966584        0  195510.98  ...      144487.00            0.00
+199379         0  198245.91  ...      149680.00            0.00
+1626967        0  201448.82  ...       75912.00            0.00
+88817          0  200687.43  ...       27903.00            0.00
+269217         0  202129.65  ...      211772.29         9642.64
+67657          0  193907.74  ...       51851.00            0.00
+
+[10 rows x 8 columns]
