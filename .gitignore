@@ -8,3 +8,8 @@ __pycache__/
 env/
 .venv/
 .ipynb_checkpoints/
+*.out
+train_output.txt
+list_large_files.py
+git_tracked_check.py
+git_check_files.py
